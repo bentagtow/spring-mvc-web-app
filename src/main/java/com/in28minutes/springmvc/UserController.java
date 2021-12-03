@@ -2,13 +2,12 @@ package com.in28minutes.springmvc;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class LoginController {
+public class UserController {
 
-    @RequestMapping(value="/login")
+    @RequestMapping(value="/user")
     public String sayHello(){
-        return "login";
+        return "user";
     }
 }
