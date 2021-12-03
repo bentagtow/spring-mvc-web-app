@@ -11,6 +11,8 @@
     <title>My first JSP</title>
 </head>
 <body>
-<h1>Just call me JSP queen</h1>
+
+<h1>Just call me JSP queen ${name}</h1>
+
 </body>
 </html>
