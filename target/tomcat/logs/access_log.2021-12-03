@@ -337,3 +337,4 @@
 0:0:0:0:0:0:0:1 - - [03/Dec/2021:17:05:59 -0600] "GET /spring-mvc/user HTTP/1.1" 200 150 http-bio-8080-exec-4 73
 0:0:0:0:0:0:0:1 - - [03/Dec/2021:17:06:00 -0600] "GET /spring-mvc/user HTTP/1.1" 200 150 http-bio-8080-exec-5 2
 0:0:0:0:0:0:0:1 - - [03/Dec/2021:17:06:07 -0600] "GET /spring-mvc/login HTTP/1.1" 200 326 http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [03/Dec/2021:17:09:32 -0600] "GET / HTTP/1.1" 200 326 http-bio-8080-exec-8 3
