@@ -5,7 +5,7 @@
 </head>
 
 <body>
-Welcome ${name}.
+Welcome ${name} and pass is ${password}.
 </body>
 </html>
 
