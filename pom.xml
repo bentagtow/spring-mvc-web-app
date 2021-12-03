@@ -35,7 +35,8 @@
 					<version>2.2</version>
 					<configuration>
 						<path>/</path>
-						<contextReloadable>true</contextReloadable>
+<!-- 						<port>8081</port>
+ -->						<contextReloadable>true</contextReloadable>
 					</configuration>
 				</plugin>
 			</plugins>
