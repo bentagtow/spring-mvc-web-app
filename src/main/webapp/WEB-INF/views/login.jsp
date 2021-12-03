@@ -3,15 +3,10 @@
 <head>
     <title>My first JSP</title>
 </head>
-<%
-    java.util.Date date = new java.util.Date();
-%>
-<body>
-<div>
-    current date is <%=date%>
 
-</div>
-<h1>my name is ${name}</h1>
+<body>
+
+<h1>Just call me JSP king ${name}</h1>
 
 </body>
 </html>

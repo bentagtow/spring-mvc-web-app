@@ -129,3 +129,5 @@
 0:0:0:0:0:0:0:1 - - [03/Dec/2021:14:35:37 -0600] "GET /?name=Benjamin HTTP/1.1" 500 3126 http-bio-8080-exec-2 7
 0:0:0:0:0:0:0:1 - - [03/Dec/2021:14:35:50 -0600] "GET /?name=Benjamin HTTP/1.1" 200 147 http-bio-8080-exec-3 69
 0:0:0:0:0:0:0:1 - - [03/Dec/2021:14:36:01 -0600] "GET /?name=Benjamin HTTP/1.1" 200 147 http-bio-8080-exec-1 68
+0:0:0:0:0:0:0:1 - - [03/Dec/2021:14:36:50 -0600] "GET /?name=Benjamin HTTP/1.1" 200 121 http-bio-8080-exec-3 385
+0:0:0:0:0:0:0:1 - - [03/Dec/2021:14:36:51 -0600] "GET /?name=Benjamin HTTP/1.1" 200 121 http-bio-8080-exec-4 1
