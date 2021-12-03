@@ -9,7 +9,9 @@
 <%--Just call me JSP king ${name} and my password is ${password}--%>
 <form action="/login.do" method="post">
     Enter your name
-    <input type="test" name="name" />
+    <input type="text" name="name" />
+    Enter your password
+    <input type="password" name="password" />
     <input type="submit" value="login" />
 </form>
 
