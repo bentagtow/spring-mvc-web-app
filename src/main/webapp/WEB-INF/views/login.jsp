@@ -8,6 +8,9 @@
 
 <%--Just call me JSP king ${name} and my password is ${password}--%>
 <form action="/login.do" method="post">
+    <p>
+        ${errorMessage}
+    </p>
     Enter your name
     <input type="text" name="name" />
     Enter your password
