@@ -1,5 +1,6 @@
 package com.in28minutes.springmvc;
 
+import com.in28minutes.login.LoginService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,6 +10,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class LoginController {
+
+    LoginService service = new LoginService();
 
     @RequestMapping(value="/login", method = RequestMethod.GET)
     public String showLoginPage(){
