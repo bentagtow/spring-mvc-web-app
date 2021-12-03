@@ -6,7 +6,12 @@
 
 <body>
 
-<h1>Just call me JSP king ${name}</h1>
+<%--Just call me JSP king ${name} and my password is ${password}--%>
+<form action="/login.do" method="post">
+    Enter your name
+    <input type="test" name="name" />
+    <input type="submit" value="login" />
+</form>
 
 </body>
 </html>
