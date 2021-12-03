@@ -1,4 +1,4 @@
-package com.in28minutes.springmvc;
+package com.in28minutes.login;
 
 import com.in28minutes.login.LoginService;
 import org.springframework.stereotype.Controller;

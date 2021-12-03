@@ -7,7 +7,7 @@
 <body>
 
 <%--Just call me JSP king ${name} and my password is ${password}--%>
-<form action="/spring-mvc/login" method="post">
+<form action="/login" method="post">
     <p>
         ${errorMessage}
     </p>
